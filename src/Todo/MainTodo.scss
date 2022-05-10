@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    margin: 0 auto;
+    width: 300px;
+    border: 1px solid black;
+    background-color: rgb(0, 136, 255);
+    color: black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    button{
+        background-color: gray;
+        color: white;
+        font-size: x-large;
+        border-radius: 10px;
+    }
+}
+
+.todoHeader{
+    margin-top: 15px;
+    .formDiv{
+        display: flex;
+        justify-content: center;
+        input{
+            width: 200px;
+            height: 40px;
+            background-color: rgb(0, 234, 255);
+            color: black;
+            font-size: x-large;
+            border-radius: 10px;
+        }
+        button{
+            height: 40px;
+            width: 50px;
+        }
+    }
+}
+.todoItem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 25px;
+    .todoList{
+        border: 1px solid black;
+        width: 250px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+    input{
+        height: 20px;
+        width: 20px;
+        margin-right: 15px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    button{
+        height: 100%;
+        width: 35px;
+        border-radius: 10px;
+    }
+}
+.todoFooter{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    button{
+        height: 30px;
+    }
+}
